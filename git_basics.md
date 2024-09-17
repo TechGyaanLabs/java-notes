@@ -87,4 +87,4 @@
 - **`git stash pop`**  
   Applies stashed changes and removes them from the stash.
 - **`git stash list`**  
-  Lists all stashed changes.
+  Lists all stashed changes are shown.
