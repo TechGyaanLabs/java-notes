@@ -91,6 +91,5 @@ Garbage collection is the process by which Java programs perform automatic memor
 ## 20. What is the difference between `throw` and `throws`?
 - **throw**: Used to explicitly throw an exception.
 - **throws**: Used in a method signature to indicate that the method may throw an exception.
-- 
 ## 21. What is the marker interface ?
 Interface without body is called marker interface.
