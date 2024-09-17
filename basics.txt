@@ -1,0 +1,79 @@
+1. What are the main features of Java?
+    Object-Oriented: Everything is treated as an object, and code is written inside classes.
+    Platform-Independent: Java code is compiled into bytecode, which can run on any machine with a Java Virtual Machine (JVM).
+    Robust: Java has strong memory management, exception handling, and type-checking mechanisms.
+    Simple: Java has a simple syntax similar to C++ but removes complex features like pointers and operator overloading.
+    Multithreaded: Java supports multithreaded programming.
+    Secure: Java provides built-in security features like cryptography, encryption, and authentication.
+2. What is the difference between JDK, JRE, and JVM?
+    JDK (Java Development Kit): A software development kit used to develop Java applications. It includes the JRE and development tools (e.g., the compiler).
+    JRE (Java Runtime Environment): Provides libraries, JVM, and other components to run Java applications.
+    JVM (Java Virtual Machine): An abstract machine that provides a runtime environment to execute Java bytecode.
+3. Explain the 'public static void main(String[] args)' method.
+public: It means that the method is accessible from anywhere.
+static: It allows the main method to be called without creating an instance of the class.
+void: It means the method does not return any value.
+main: The entry point of any Java application.
+String[] args: It is an array of strings that stores command-line arguments.
+4. What is the difference between '==`' and '.equals()'?
+==: Used for reference comparison (whether two references point to the same object).
+.equals(): Used for content comparison (whether two objects have the same value).
+5. What is the significance of the 'final' keyword?
+final variable: Its value cannot be changed once assigned.
+final method: Cannot be overridden by subclasses.
+final class: Cannot be subclassed.
+6. What is a constructor in Java?
+A constructor is a special method that is called when an object of a class is created. It has the same name as the class and does not have a return type.
+If no constructor is defined, Java provides a default no-argument constructor.
+7. Explain method overloading and method overriding.
+Method Overloading: Having multiple methods with the same name but different parameters within the same class. It is an example of compile-time (or static) polymorphism.
+Method Overriding: A subclass provides a specific implementation of a method already defined in its superclass. It is an example of runtime (or dynamic) polymorphism.
+8. What is the difference between 'abstract' class and 'interface'?
+Abstract class:
+Can have abstract and non-abstract methods.
+Supports fields, constructors, and method implementations.
+A class can inherit only one abstract class.
+Interface:
+Contains only abstract methods (until Java 8, where default and static methods are introduced).
+Cannot have constructors or fields (except constants).
+A class can implement multiple interfaces.
+9. What is the use of the 'this' keyword?
+this is a reference variable that points to the current object.
+Used to distinguish between instance variables and local variables with the same name.
+Can be used to call another constructor within the same class.
+10. What is a 'super' keyword?
+super is a reference variable used to refer to the immediate parent class object.
+Used to call superclass methods and constructors.
+11. Explain the 'finally' block in exception handling.
+The finally block follows a try block and is executed regardless of whether an exception is caught or not.
+Used to perform cleanup operations (e.g., closing files or releasing resources).
+12. What is garbage collection in Java?
+Garbage collection is an automatic memory management feature in Java.
+The JVM automatically removes objects that are no longer referenced to free up memory.
+The garbage collector runs periodically to reclaim memory from unused objects.
+13. What is the difference between ArrayList and LinkedList?
+    ArrayList:
+    Backed by a dynamic array.
+    Faster for accessing elements (O(1)).
+    Slower for insertion and deletion (O(n)), especially in the middle of the list.
+    LinkedList:
+    Backed by a doubly-linked list.
+    Faster for insertion and deletion (O(1) if the position is known).
+    Slower for accessing elements (O(n)).
+14. What is the difference between 'HashMap' and 'HashTable'?
+    HashMap:
+    Not synchronized; not thread-safe.
+    Allows one null key and multiple null values.
+    HashTable:
+    Synchronized; thread-safe.
+    Does not allow any null key or value.
+15. What are the access modifiers in Java?
+    public: Accessible from any other class.
+    protected: Accessible within the same package and by subclasses.
+    default (no modifier): Accessible only within the same package.
+    private: Accessible only within the same class.
+
+
+
+
+
