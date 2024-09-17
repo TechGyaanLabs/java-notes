@@ -1,5 +1,5 @@
 
-# Top 2 Data Structure Interview Questions
+# Top 3 Data Structure Interview Questions
 
 ## 1. What is a Data Structure?
 A data structure is a way of organizing, managing, and storing data in a format that enables efficient access and modification. It defines the relationship between the data and the functions that can be applied to it. Common types of data structures include:
@@ -21,3 +21,7 @@ A data structure is a way of organizing, managing, and storing data in a format 
   - Dynamic size: The size can grow or shrink as needed during program execution.
   - Sequential access: Elements can only be accessed sequentially starting from the head node.
   - Insertion and deletion of elements are easier and more efficient, as there is no need to shift elements.
+
+## 3. What is the RDF ?
+RDF is knowledge graph
+
